@@ -6,12 +6,29 @@
 
 body {
   background-image: url(/assets/images/bg-geometry.webp) ;
-
-  font-family: "Reddit Mono", monospace;
-  font-style: normal;
 }
 
-.buttom-link :hover{
-  border-radius: 1px solid var(--blue-skye) ;
-}
+/*LOGO / NAVBAR*/
+
+  #navbar a.active {
+    border-bottom: 1px solid rgb(8, 129, 145);
+  }
+
+ #img-logo{
+  width: 40px;
+ }
+
+  /*TOP-RANK*/
+
+  #top-rank{
+    border: 1px solid red;
+    background-color: var(--white);
+  }
+
+  .logo-rank{
+    border-radius: 1px solid black ;
+    width: 50px;
+  }
+
+
 
