@@ -23,11 +23,12 @@ body {
   #top-rank{
     border: 1px solid red;
     background-color: var(--white);
+    height: 920px;
   }
 
-  .logo-rank{
-    border-radius: 1px solid black ;
-    width: 50px;
+  #logo-rank{
+    border: 1px solid black ;
+    width: 80px;
   }
 
 
