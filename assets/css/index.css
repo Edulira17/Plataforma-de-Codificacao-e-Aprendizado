@@ -6,19 +6,18 @@
 
 body {
   background-image: url(/assets/images/bg-geometry.webp) ;
+
+  font-family: "JetBrains Mono", monospace
 }
 
 /*LOGO / NAVBAR*/
 
 #navbar a.active {
-  border: 1px solid rgb(64, 189, 214);
+  color: rgb(60, 60, 255);
+  border-bottom: 1px solid rgb(64, 189, 214);
   border-radius: 5px ;
 }  
 
-#navbar a:hover{
-  background: white;
-  border-radius: 5px;
-}
 
 /*imagem logo - redimensionamento*/
 
@@ -39,6 +38,9 @@ body {
   width: 80px;
 }
 
+.top-rank li :hover{
+  background-color: black;
+}
 
 /*Barra de pesquisa*/
 
