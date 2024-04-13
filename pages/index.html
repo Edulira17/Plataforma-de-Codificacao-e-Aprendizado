@@ -3,27 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--LINK BOOTSTRAP ICONS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <!--FAVICON-->
     <link rel="shortcut icon" href="/assets/images/favicon-32x32.png" type="image/x-icon">
      <!--LINK BOOTSTRAP CSS-->
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <!--LINK CSS-->
     <link rel="stylesheet" href="/assets/css/index.css">
     <title>Plataforma de Codificação</title>
 </head>
 <body>
     <!--NAVBAR-->
-    <div class="container-fluid sticky-top">
-      <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd;" id="navbar">
-        <div class="container-fluid ">
-          <a class="navbar-brand" href="#">
-            <img src="/assets/images/cloud-coding.png" alt="" id="img-logo">
-            <span style="color: var(--blue-skye);">CodingAllDay</span>
-          </a>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd;" id="navbar">
+      <div style="padding-left: 150px;">
+        <ul class="navbar-nav">
+          <!-- Avatar -->
+          <li class="nav-item dropdown">
+            <a
+              data-mdb-dropdown-init
+              class="nav-link dropdown-toggle d-flex align-items-center"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              aria-expanded="false"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp"
+                class="rounded-circle"
+                height="30px"
+                alt="Portrait of a Woman"
+                loading="lazy"
+              />
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="#">My profile</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Settings</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Logout</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -36,41 +67,17 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Competir</a>
               </li>
-             
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-primary" type="submit">Search</button>
-            </form>
           </div>
+          <a class="navbar-brand" href="#">
+            <img src="/assets/images/cloud-coding.png" alt="" id="img-logo">
+            <span style="color: var(--blue-skye);">CodingAllDay</span>
+          </a>
         </div>
       </nav>
-    </div>
-
-    <!--TOP RANK SIDEBAR -->
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-2 p-4 mb-2 mx-3 bg-light text-dark" id="top-rank">
-          <div class="container my-3 vstack" style="border: 1px solid red;">
-            <img width="70px" src="/assets/images/taca-de-ouro.png" alt="Taça de ouro">
-            <span style="font-weight: bold;">Rank</span>
-            <div class="mt-3" style="border: 1px solid red;">
-              <ol>
-                <li>eduardo</li>
-                <li>kamylle</li>
-                <li>Pincocie</li>
-                <li>Erbir</li>
-                <li>Tiago Sousa</li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ol>
-            </div>
-          </div>
-        </div>
-
+    
+      <div class="container my-4">
         <!--BARRA DE PESQUISA-->
-
         <div class="col p-3 mb-2 bg-light text-dark" id="border-pesquisa">
           <section class="mb-3" id="border-pesquisa">
             <div class="text-center mt-3">
@@ -90,9 +97,9 @@
               <strong>Desafio 1</strong>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Hello World!</h5>
+              <p class="card-text">O seu primeiro programa em qualquer linguagem de programação normalmente é o "Hello World!". Neste primeiro problema tudo o que você precisa fazer é imprimir esta mensagem na tela.</p>
+              <a href="#" class="btn btn-primary">Go to coding</a>
             </div>
           </div>
           <div class="card mt-4">
@@ -100,9 +107,9 @@
               <strong>Desafio 2</strong>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Média</h5>
+              <p class="card-text">Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.</p>
+              <a href="#" class="btn btn-primary">Go to coding</a>
             </div>
           </div>
 
@@ -111,9 +118,9 @@
               <strong>Desafio 3</strong>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Cálculo Simples</h5>
+              <p class="card-text">Neste problema, deve-se ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1, o código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. Após, calcule e mostre o valor a ser pago.</p>
+              <a href="#" class="btn btn-primary">Go to coding</a>
             </div>
           </div>
 
@@ -122,11 +129,55 @@
               <strong>Desafio 4</strong>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Salário</h5>
+              <p class="card-text">Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário, com duas casas decimais.</p>
+              <a href="#" class="btn btn-primary">Go to coding</a>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+
+    <footer class="text-center text-white" style="background-color:#e3f2fd ;">
+            <!-- Grid container -->
+            <div class="container-fluid p-4 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a
+                  data-mdb-button-init data-mdb-ripple-init class="btn text-white btn-floating m-1"
+                  style="background-color: #3b5998;"
+                  href="#!"
+                  role="button"
+                  ><i class="bi bi-facebook"></i></a>
+                <!-- Linkedin -->
+                <a
+                  data-mdb-button-init data-mdb-ripple-init class="btn text-white btn-floating m-1"
+                  style="background-color: #0082ca;"
+                  href="#!"
+                  role="button"
+                  ><i class="bi bi-linkedin"></i></a>
+                <!-- Github -->
+                <a
+                  data-mdb-button-init data-mdb-ripple-init class="btn text-white btn-floating m-1"
+                  style="background-color: #333333;"
+                  href="#!"
+                  role="button"
+                  ><i class="bi bi-github"></i></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color:#a5d0ee ;">
+              Projeto em Bootstrap 5 - 3°Período ESBAM:
+              <a class="text-white" href="https://mdbootstrap.com/">Repository</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
         </div>
       </div>
     </div>
