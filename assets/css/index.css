@@ -7,41 +7,23 @@
 body {
   background-image: url(/assets/images/bg-geometry.webp) ;
 
-  font-family: "JetBrains Mono", monospace
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
 }
 
 /*LOGO / NAVBAR*/
 
-#navbar a.active {
-  color: rgb(60, 60, 255);
-  border-bottom: 1px solid rgb(64, 189, 214);
-  border-radius: 5px ;
-}  
-
-
-
+#navbar a:hover{
+  background-color: #C0C0C0;
+  border-radius: 5px;
+  color:#4682B4;
+  transition: background 0.5s;
+}
 
 /*imagem logo - redimensionamento*/
 
 #img-logo{
   width: 40px;
-}
-
-/*TOP-RANK*/
-
-#top-rank{
-  border: 1px solid #bbb;
-  border-radius: 5px;
-  background-color: var(--white);
-}
-
-#logo-rank{
-  border: 1px solid black ;
-  width: 80px;
-}
-
-.top-rank li :hover{
-  background-color: black;
 }
 
 /*Barra de pesquisa*/
@@ -51,5 +33,11 @@ body {
   border-radius: 5px;
 }
 
+/*Borda Cards Cursos*/
 
+#border-cards {
+  border: 1px solid #bbb;
+  border-radius: 5px;
 
+  background-color: #fff;
+}
