@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--highlight.js-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+  <!--LINK BOOTSTRAP ICONS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <!--FAVICON-->
+  <link rel="shortcut icon" href="/assets/images/favicon-32x32.png" type="image/x-icon">
+  <!--LINK BOOTSTRAP CSS-->
+  <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
+  <!--LINK TEMA MONOKAI.CSS-->
+  <link rel="stylesheet" href="/pages-desafios/monokai-theme.css">
+  <!--LINK CSS-->
+  <link rel="stylesheet" href="/assets/css/index.css">
+  <!--LINK CSS EDITOR DE CODIGO-->
+  <link rel="stylesheet" href="/editorDeCodigo/editor.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#e3f2fd;">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img class="me-2" src="/assets/images/icons8-codificação-48.png" alt="" width="30">
+        CodingAllDay
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="/pages/home.html"">Home</a>
+          <a class="nav-item nav-link" href="/pages/practice.html">Practice</a>
+          <a class="nav-item nav-link" href="/pages/">Courses</a>
+          <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--AREA DE CODIFICAÇÃO-->
+  <div class="container mt-5" id="border-cards" style="height: 500px; width: 700px; ">
+    <div class="row align-items-center">
+      <div class="col">
+        <section class="text-center">
+          <h3>Escolha uma Linguagem</h3>
+          <hr>
+          <select class="me-3" name="linguagem" id="linguagem">
+            <option value="">Javascript</option>
+            <option value="">HTML</option>
+            <option value="">CSS</option>
+          </select>
+        </section>
+        <div id="codigo-wrapper">
+          <code id="previewnh" class="hljs" contenteditable="true" aria-label="Editor de código">funtion teste ()</code>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--highlight.js-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="/editorDeCodigo/editorCodigo.js"></script>
+</body>
+
+</html>

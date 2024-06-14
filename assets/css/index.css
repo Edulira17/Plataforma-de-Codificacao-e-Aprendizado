@@ -11,33 +11,24 @@ body {
   font-weight: 500;
 }
 
-/*LOGO / NAVBAR*/
+/*NAVBAR*/
 
-#navbar a:hover{
-  background-color: #C0C0C0;
+#navbar li a:hover{
+  background-color:var(--white);
+  color: #00BFFF;
   border-radius: 5px;
-  color:#4682B4;
-  transition: background 0.5s;
 }
 
-/*imagem logo - redimensionamento*/
-
-#img-logo{
-  width: 40px;
-}
-
-/*Barra de pesquisa*/
+/*BARRA DE PESQUISA*/
 
 #border-pesquisa {
   border: 1px solid #bbb;
   border-radius: 5px;
 }
 
-/*Borda Cards Cursos*/
-
-#border-cards {
+/*DESCRIÇÃO DA PÁGINA*/
+#border-description{
   border: 1px solid #bbb;
   border-radius: 5px;
-
-  background-color: #fff;
 }
+

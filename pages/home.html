@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--LINK BOOTSTRAP ICONS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!--LINK BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" />
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="/assets/css/index.css" />
+    <title>Plataforma de Codificação</title>
+  </head>
+
+  <body>
+    <!--NAVBAR-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark sticky-top"
+      style="background-color: #086fb8"
+      id="navbar"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex" href="#">
+          <img
+            class="me-2"
+            src="/assets/images/icons8-codificação-48.png"
+            alt=""
+            width="30"
+          />
+          CodingAllDay
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul
+            class="navbar-nav justify-content-center flex-grow-1"
+            style="margin-right: 180px"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/pratique.html">Pratique</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                >Sobre</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--CONTAINER PRINCIPAL-->
+    <div class="container my-4 shadow p-3 mb-5 bg-body rounded">
+      <div class="col p-3 mb-2 bg-light text-dark" id="border-pesquisa">    
+        <!--BARRA DE PESQUISA-->
+        <section class="mb-3" id="border-pesquisa">
+          <div class="text-center mt-3">
+            <span>
+              <h3>Barra de pesquisa</h3>
+            </span>
+            <hr />
+            <div class="input-group input-group-sm mb-4 px-3">
+              <span class="input-group-text" id="inputGroup-sizing-sm"
+                >Buscar</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-sm"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- CARDS COM OS DESAFIOS -->
+        <div class="card mt-4">
+          <div class="card-header">
+            <strong>Desafio 1</strong>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Hello World!</h5>
+            <p class="card-text">
+              O seu primeiro programa em qualquer linguagem de programação
+              normalmente é o "Hello World!". Neste primeiro problema tudo o que
+              você precisa fazer é imprimir esta mensagem na tela.
+            </p>
+            <a href="#" class="btn btn-primary">Go to coding</a>
+          </div>
+        </div>
+
+        <div class="card mt-4">
+          <div class="card-header">
+            <strong>Desafio 2</strong>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Média</h5>
+            <p class="card-text">
+              Leia 2 valores de ponto flutuante de dupla precisão A e B, que
+              correspondem a 2 notas de um aluno. A seguir, calcule a média do
+              aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5
+              (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de
+              0 até 10.0, sempre com uma casa decimal.
+            </p>
+            <a href="#" class="btn btn-primary">Go to coding</a>
+          </div>
+        </div>
+
+        <div class="card mt-4">
+          <div class="card-header">
+            <strong>Desafio 3</strong>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Cálculo Simples</h5>
+            <p class="card-text">
+              Neste problema, deve-se ler o código de uma peça 1, o número de
+              peças 1, o valor unitário de cada peça 1, o código de uma peça 2,
+              o número de peças 2 e o valor unitário de cada peça 2. Após,
+              calcule e mostre o valor a ser pago.
+            </p>
+            <a href="#" class="btn btn-primary">Go to coding</a>
+          </div>
+        </div>
+
+        <div class="card mt-4">
+          <div class="card-header">
+            <strong>Desafio 4</strong>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Salário</h5>
+            <p class="card-text">
+              Escreva um programa que leia o número de um funcionário, seu
+              número de horas trabalhadas, o valor que recebe por hora e calcula
+              o salário desse funcionário. A seguir, mostre o número e o salário
+              do funcionário, com duas casas decimais.
+            </p>
+            <a href="#" class="btn btn-primary">Go to coding</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="text-center text-white" style="background-color: #086fb8">
+      <div class="container-fluid p-4 pb-0">
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            data-mdb-button-init
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998"
+            href="#!"
+            role="button"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <!-- Linkedin -->
+          <a
+            data-mdb-button-init
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca"
+            href="#!"
+            role="button"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+          <!-- Github -->
+          <a
+            data-mdb-button-init
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333"
+            href="#!"
+            role="button"
+            ><i class="bi bi-github"></i
+          ></a>
+        </section>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: #a5d0ee">
+        Projeto em Bootstrap 5 - 3°Período ESBAM:
+        <a
+          class="text-white"
+          target="_blank"
+          href="https://github.com/Edulira17"
+          >Repository</a
+        >
+      </div>
+    </footer>
+
+    <!--SCRIPT BOOTSTRAP-->
+    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
