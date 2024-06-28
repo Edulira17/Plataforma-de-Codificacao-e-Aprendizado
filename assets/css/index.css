@@ -46,5 +46,30 @@ span {
   font-weight: bold;
 }
 
+/*CURSOS*/
+.certification {
+  margin-left: 50px;
+}
+
+.certification span {
+  color: #b3b3b3; 
+}
+
+#bg-gradient {
+  background: linear-gradient(to right, rgb(20, 86, 184), rgb(30, 155, 238));
+}
+
+.text-container h5 {
+  color: #fff;
+  margin-left: 40px;
+  padding: 5px;
+}
+
+.text-container p {
+  color: white;
+  font-size: small;
+
+  margin-left: 45px;
+}
 
 
