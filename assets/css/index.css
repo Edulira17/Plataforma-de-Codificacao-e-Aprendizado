@@ -72,6 +72,22 @@ span {
   margin-left: 45px;
 }
 
-/*BORDER PAGE ABOUT IN PROFILE*/
+/*BORDER PAGE ABOUT IN PROFILE AND POSITION*/
+.position-img {
+  margin-top: 30px;
+  margin-left: 50px;
+}
 
+.position-img img {
+  border-radius: 50%;
+  width: 200px;
+  border:1px solid blue;
+}
 
+.border-container {
+  border: 1px solid red;
+}
+
+.position-tittle h5 {
+  margin-left: 50px;
+}
